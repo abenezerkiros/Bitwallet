@@ -222,6 +222,8 @@ body{
 .graph{
   position: absolute;
   bottom: 0px;
+  max-height: 125px;
+  max-width: 90%;
 }
 .m-l-14{
   margin-left: 14px;
