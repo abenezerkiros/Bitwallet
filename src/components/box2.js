@@ -623,12 +623,8 @@ export default function Box2() {
                  <span className='f-s-13'>Higher: ${high}</span>
              </div>
             </div>
-            <div className='d-flex p-top m-l-14'>
-      <div className='point-orange z-max'/>
-       <span className='f-s-14 ls-0 z-max'>1 BTC = $5.483</span>
-      </div>
-       
-        <ResponsiveContainer width="95%" height="76%" className="graph">
+
+        <ResponsiveContainer width="95%" height="76%">
           
         <AreaChart
           width={200}
